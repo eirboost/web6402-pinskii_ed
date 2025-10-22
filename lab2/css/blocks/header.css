@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 1px solid #4E4E50;
+}
+
+.header__wrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0;
+  padding: 0 32px;
+}
+
+.header__list-item {
+  list-style: none;
+}
+
+.header__list-link {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.header__list-link--active {
+  font-weight: 300;
+  color: #c3073f;
+}

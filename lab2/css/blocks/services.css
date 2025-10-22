@@ -1,0 +1,37 @@
+.services__content {
+  padding: 0 0 80px;
+}
+
+.services__section:not(:first-child) {
+  padding: 24px 40px;
+}
+
+.services__section:not(:last-child) {
+  margin: 0 0 36px;
+}
+
+.services__section:not(:first-child):nth-child(2n+1) {
+  border-radius: 16px;
+  background-color: #25252B;
+}
+
+.services__title {
+  margin: 40px 0 8px;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #c3073f;
+}
+
+.services__subtitle {
+  margin: 0 0 22px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #950740;
+}
+
+.services__text {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
