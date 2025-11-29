@@ -49,9 +49,8 @@ function recSumTo(n) {
  * @param {*} n
  */
 function factorial(n) {
-    if (n <= 1) {
-        return 1;
-    }
+    if (n < 0) return null;
+    if (n <= 1) return 1;
 
     let fac = 1;
 
